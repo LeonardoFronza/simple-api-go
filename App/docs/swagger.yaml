@@ -1,0 +1,22 @@
+basePath: /
+info:
+  contact: {}
+  description: Esta API retorna uma lista aleatória de inteiros.
+  title: API de Lista Aleatória com Swagger
+paths:
+  /random-list:
+    get:
+      consumes:
+      - application/json
+      description: Retorna uma lista aleatória de inteiros.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              type: integer
+            type: array
+      summary: Retorna uma lista aleatória
+swagger: "2.0"
