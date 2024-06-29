@@ -6,7 +6,7 @@ Este guia explica como a aplicação funciona e como utilizá-la com Docker e Ku
 
 A aplicação é desenvolvida em GO e possui as seguintes funcionalidades:
 
-1. Swagger - get_random_list
+1. Swagger - `get_random_list`
 2. Hello, World!
 
 Essa aplicação foi criada como um desafio para aprender a utilizar o Kubernetes e explorar a linguagem GO.
@@ -33,3 +33,5 @@ Para utilizar a aplicação com Kubernetes, siga os passos abaixo:
 5. Execute o comando 'minikube tunnel' para criar um túnel entre as portas.
 6. Verifique o status dos pods com o comando 'kubectl get pods'.
 7. Acesse a aplicação através do serviço exposto pelo Kubernetes.
+
+Link Docker Hub: https://hub.docker.com/repository/docker/leonardofronza/api-go-gurizes-app/general
