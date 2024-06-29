@@ -33,5 +33,3 @@ Para utilizar a aplicação com Kubernetes, siga os passos abaixo:
 5. Execute o comando 'minikube tunnel' para criar um túnel entre as portas.
 6. Verifique o status dos pods com o comando 'kubectl get pods'.
 7. Acesse a aplicação através do serviço exposto pelo Kubernetes.
-
-[Leonardo Fronza, Arthur Schallenberger, Bruno Groehs, Théo Rossetto]
